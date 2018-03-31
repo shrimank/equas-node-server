@@ -1,0 +1,35 @@
+{
+  "name": "equas-node-server",
+  "version": "0.0.1",
+  "description": "Equas Node Service Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shrimank/equas-node-server.git"
+  },
+  "keywords": [
+    "equas"
+  ],
+  "author": "Shriman Nijagun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shrimank/equas-node-server/issues"
+  },
+  "homepage": "https://github.com/shrimank/equas-node-server#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "figlet": "^1.2.0",
+    "lodash": "^4.17.5",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.0.5",
+    "mongoose": "^5.0.12"
+  },
+  "devDependencies": {
+    "expect": "^22.4.3",
+    "mocha": "^5.0.5",
+    "supertest": "^3.0.0"
+  }
+}
